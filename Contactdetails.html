@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Contact Details</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <h3>My Conatct Details</h3>
@@ -13,22 +14,26 @@
         <dd>kbakshi8@gmail.com</dd>
         <dd>jainevanshi@gmail.com</dd>
 <br>
+<hr>
 <br>
+
        
         <form action="mailto:kbakshi8@gmail.com" method="post" value="" enctype="text/plain">
-
-            <label>Name</label>
-            <input type="text" name="Name">
+<table>
+    <tr>
+            <td><label>Name</label></td>
+        <td><input type="text" name="Name"></td>
+            <br></td>
+           <tr><td> <label>EmailId</label></td>
+           <td><input type="email" name="Email"></td></tr>
             <br>
-            <label>EmailId</label>
-            <input type="email" name="Email">
-            <br>
-            <label>Enter your message here.</label>
-            <textarea name"message" rows="5" cols="3"></textarea>
-            <br>
-            <input type="submit" name="submit" value="submit">
-
+            <tr><td><label>Enter your message here.</label></td>
+            <td><textarea name"message" rows="5" cols="22"></textarea></td>
+            <br></tr>
+            <tr><td><input type="submit" name="submit" value="submit"></td></tr>
+        </table>
         </form>
 
+        <hr>
     </body>
 </html>
